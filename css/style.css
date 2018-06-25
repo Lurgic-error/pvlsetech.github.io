@@ -1,0 +1,124 @@
+/*
+COLOURS
+about: white;
+services-bg :#ea5455 ;
+portfolio-bg: white;
+contact-us: #2d4059 ;
+
+section-title: #f9c203;
+*/
+html{
+
+}
+
+body{
+
+	font-family: 'verdana';
+	
+}
+h1,h2,h3, h4{
+	text-align: center;
+	font-family: 'courier new';
+}
+
+.bold{
+	font-weight:700;
+	font-size: 125%;
+}
+
+.navbar{
+	background-color: #2d4059; 
+}
+.nav-buttons{
+	margin-right: 20%;
+}
+.navlink{
+	color:white;
+}
+
+.navlink:hover{
+	color: #f9c203;
+	text-decoration: none;
+}
+
+.slogan{
+	font-weight: 700;
+	margin-bottom:7%;
+}
+
+
+.banner-text{
+	font-size: 300%;
+	font-weight: 700;
+}
+
+#logo{
+
+}
+
+.icons{
+	display: inline;
+}
+
+.section-title{
+	color:#f9c203;
+	font-weight: 700;
+	font-size: 400%;
+	margin-top: 5%;
+}
+
+#landing{
+
+background-image: url('../imgs/yello.png');
+background-size: cover;
+}
+
+
+#about{
+	background-color: white;
+	width:100%;
+	height: auto;
+	margin: 0;
+	padding-bottom:5%;
+}
+
+
+#services{
+	color:white;
+	background-color: #ea5455;
+	width:100%;
+	height: auto;
+	margin: 0;
+}
+
+#portfolio{
+	background-color: white;
+	width:100%;
+	height: auto;
+	margin: 0;
+}
+
+#contacts{
+	color:white;
+	background-color: #2d4059;
+	width:100%;
+	height: auto;
+	margin: 0;
+}
+
+/*bootstrap overides*/
+
+.bodybuttons{
+ outline-color: #2d4059;
+}
+
+.bodybuttons:hover{
+	background-color: #2d4059;
+	transition:color 2s;
+	transition:background-color 1.5s;
+}
+
+.cardedit{
+	background-color: #ea5455;
+	border-color: white;
+}
